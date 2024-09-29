@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --bgcolor: black;
+    --textcolor: white;
+    --fontfamily: "Poppins", sans-serif;
+    --fontweight: 500;
+    --fontstyle: italic;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* background-color: var(--bgcolor); */
+}
+
+.common {
+    color: var(--textcolor);
+    font-size: 40px;
+    padding-left: 10px;
+    font-family: var(--fontfamily);
+    font-weight: var(--fontweight);
+    font-style: var(--fontstyle);
+}
+
+.code {
+    color: rgb(230, 4, 121);
+    padding: 0px;
+}
+
+.dev {
+    color: aqua;
+    padding: 0px;
+}
+
+nav img {
+    height: 50px;
+    width: auto;
+    padding-right: 10px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    height: 51px;
+    width: 99vw;
+    font-size: 20px;
+    font-weight: bolder;
+    position:fixed;
+    background-color: black;
+}
+
+.item {
+    color: var(--textcolor);
+    text-decoration: none;
+    height: 51px;
+    width: 96px;
+    display: inline;
+    text-align: center;
+    align-content: center;
+}
+
+.item:hover {
+    background-color:rgb(230, 4, 121) ;
+    color:aquamarine ;
+    
+}

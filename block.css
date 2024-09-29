@@ -1,0 +1,44 @@
+:root {
+    --bgcolor: black;
+    --textcolor: white;
+    --fontfamily: "Poppins", sans-serif;
+    --fontweight: 500;
+    --fontstyle: italic;
+}
+.block{
+    color: aqua;
+    height: 96vh;
+    width: 99vw;
+    font-family: var(--fontfamily);
+    font-weight: var(--fontweight);
+    font-size: 223px;
+    text-align: center;
+    background-image: url(pixelcut-export.jpeg);
+    background-repeat: no-repeat;
+    -webkit-text-stroke: 6px rgb(25, 49, 206) ;
+    color: transparent;
+    background-size: 100vw 100vh;
+    text-shadow: 10px;
+    padding-top: 10px;
+
+}
+.fotter{
+    background-image: url(gigachad.jpeg);
+    height: 105vh;
+    width: 99vw;
+    background-repeat: no-repeat;
+    -webkit-text-stroke: 1px rgb(212, 212, 227);
+    color: transparent;
+    background-size: 99vw 105vh;
+    font-size: 152px;
+    text-align: center;
+    letter-spacing: 40px;
+}
+.mark1{
+    position:fixed;
+    right: 0px;
+    bottom: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
